@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "register.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;500&display=swap" rel="stylesheet">
+        <title>Easy</title>
+        <link rel="icon" href="favicon.png" sizes="32x32"/>
+    </head>
+
+    <body>
+        <header>
+            <img id = "logo" src = "logo.png">
+        </header>
+        <div id = "aviso">
+        <span>
+            First, some guidelines
+        </span>
+        <article>
+            <ul>
+                <li><br>To insert a new question, you must fill in all the fields on the form.<br><br></li>
+                <li><br>The correct answer field must be exactly the same as the correct alternative, including spaces, accents and other characters.<br><br></li>
+                <li><br>Failure to comply with these requirements can cause serious errors in the program.<br><br></li>
+                <li><br>The program has 7 (1-7) standard questions, so the question entered must be number 8, and so on.<br><br></li>
+            </ul>
+        </article>
+        <input id = "botao" type = "button" value = "Ok, go to the form." onclick="insereQuestao(questoes)"></input>
+        </div>
+        <div id = "formulario">
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>

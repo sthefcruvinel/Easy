@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #56a5eb;
+}
+
+#logo{
+    width: 11%;
+    display: inline-block;
+    margin-left: 1%;
+    }
